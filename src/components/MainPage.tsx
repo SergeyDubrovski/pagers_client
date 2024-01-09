@@ -21,7 +21,7 @@ export const MainPage = (props: Props) => {
       
       <textarea autoFocus className={s.decor}  value={line0.substring(0, 32)} 
       onChange={(e) => { setLine0(e.currentTarget.value)}}/>
-      <button className={s.buttonSend} onClick={()=>{sendMessage(line0.substring(0, 32));
+      <button className={s.buttonSend} onClick={()=>{sendMessage(line0.substring(0, 32)); setLine0('');
       }}>SEND</button>
     </div>
   )
