@@ -1,0 +1,14 @@
+.decor{
+    height: 40px;
+    font-size: 24px;
+    background: transparent;
+    display: flex;
+        outline: none;
+        border: 0;
+        color: rgb(154, 232, 154);
+        caret-color: currentColor;
+        width: 90%;
+        
+        
+  
+}
