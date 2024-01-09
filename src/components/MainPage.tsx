@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import s from './mainPage.module.css'
 import { useSendMessageMutation } from '../app/messageApi';
+import '../fonts/3270Condensed-Regular.otf';
 
 type Props = {}
 
@@ -16,11 +17,11 @@ export const MainPage = (props: Props) => {
      
     
   return (
-    <div>
+    <div className={s.conteiner}>
       
       <input autoFocus className={s.decor} type="text" value={line0.substring(0, 32)} 
       onChange={(e) => { setLine0(e.currentTarget.value)}}/>
-      <button onClick={()=>{sendMessage(line0.substring(0, 32));
+      <button className={s.buttonSend} onClick={()=>{sendMessage(line0.substring(0, 32));
       }}>SEND</button>
     </div>
   )

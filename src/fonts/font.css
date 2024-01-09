@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Regular";   /*Can be any text*/
+    src: local("Condensed"),
+      url("./3270Condensed-Regular.otf") format("truetype");
+  }
+  @font-face {
+    font-family: "Regular";   /*Can be any text*/
+    src: local("SemiCondensed"),
+      url("./3270SemiCondensed-Regular.otf") format("truetype");
+  }
+  
