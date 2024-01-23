@@ -23,6 +23,8 @@ export const MainPage = (props: Props) => {
       onChange={(e) => { setLine0(e.currentTarget.value)}}/>
       <button className={s.buttonSend} onClick={()=>{sendMessage(line0.substring(0, 32)); setLine0('');
       }}>SEND</button>
+      <a href="https://www.digitalocean.com/?refcode=c04741a48c66&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+        <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge" /></a>
     </div>
   )
 }
