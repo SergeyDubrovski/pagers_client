@@ -18,6 +18,9 @@
         border: 0;
         color: rgb(154, 232, 154);
         caret-color: currentColor;
+        border-color: rgb(154, 232, 154);
+        border: solid 2px;
+
         
 }
 .buttonSend{
